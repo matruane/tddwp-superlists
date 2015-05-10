@@ -28,7 +28,7 @@ class LoginTest(FunctionalTest):
         self.browser.get(self.server_url)
         self.browser.find_element_by_id('id_login').click()
 
-        # A Persona login box apppears
+        # A Persona login box appears
         self.switch_to_new_window('Mozilla Persona')
 
         # Edith logs in with her email address
